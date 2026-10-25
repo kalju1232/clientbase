@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "clientbase",
+  "version": "${version}",
+  "name": "ClientBase",
+  "description": "A modular utility client with an addon API.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.clientbase.ClientBase"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
